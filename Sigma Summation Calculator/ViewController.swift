@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
         }
         // Update the displaySolution label with the total
-        displaySolution.text = "Total: \(total)"
+        displaySolution.text = "\(total)"
     }
 
 
@@ -78,6 +78,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func displayNumberOne(_ sender: Any) {
     }
     @IBAction func displayNumberZero(_ sender: Any) {
+    }
+    @IBAction func displayOpenParenthesis(_ sender: Any) {
+    }
+    @IBAction func displayClosingParenthesis(_ sender: Any) {
+    }
+    @IBAction func denoteExponentiation(_ sender: Any) {
     }
 }
 
